@@ -5,6 +5,7 @@
     min-height: 80vh;
     background: url(../images/hero_desktop.jpeg);
     text-align: center;
+    background-size: cover;
 
     &__content {
         max-width: 640px;
@@ -32,6 +33,10 @@
                     font-size: 18px;
                     color: variaveis.$corTextoSecundario;
                     background-color: #6421ff;
+                    text-transform: uppercase;
+                    border-radius: 4px;
+                    margin-top: 2vw;
+                    margin-bottom: 8px;
                 }                
             }
         }
@@ -43,5 +48,9 @@
 
     p {
         margin-bottom: 20px;
+
+        &:last-child {
+            background-color: red;
+        }
     }
 }
